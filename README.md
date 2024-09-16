@@ -52,8 +52,10 @@ This will start the server on http://localhost:3000.
 ### 5. Access the Application
 You can access the application in the browser by navigating to:
 
-http://localhost:3000/index.html?pod=10ax&site=eskibeta2dev674998&workbook=SuperstoreDashboard&view=SuperstoreDashboard
+http://localhost:3000/index.html?pod=dub01&site=mySite&workbook=myWorkbook&view=MyView
 
-Replace the URL parameters (pod, site, workbook, and view) as needed for your Tableau environment. All these values can be hard-coded in app.js
+Replace the URL parameters (pod, site, workbook, and view) as needed for your Tableau environment. 
+
+Alternatively, all these values can be hard-coded in app.js, so you can load run the app without passing parameters (http://localhost:3000/index.html)
 
 
