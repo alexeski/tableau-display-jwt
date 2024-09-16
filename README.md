@@ -20,8 +20,8 @@ This project demonstrates how to embed a Tableau visualization (viz) into a webp
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-repo/tableau-embed.git
-cd tableau-embed
+git clone https://github.com/alexeski/tableau-display-jwt.git
+cd tableau-display-jwt
 ```
 
 ### 2. Install Dependencies
