@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tableau Embed</title>
+    <style>
+      /* Style to center the div both vertically and horizontally */
+      body {
+        margin: 5;
+        padding: 0;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #tableauViz {
+        width: 100vw;
+        height: 100vh;
+        max-width: 1750px;
+        max-height: 950px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="tableauViz"></div>
+    <!-- Load the JS module for Tableau -->
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
