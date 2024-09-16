@@ -30,7 +30,7 @@ npm install
 ```
 
 ### 3. Create a .env File
-Create a .env file in the root directory and populate it with your Tableau Connected Apps credentials:
+Create a .env file in the root directory and populate it with your Tableau Connected Apps credentials and Tablau username (email format):
 
 ```bash
 clientId = "your_client_id"
