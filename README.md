@@ -54,7 +54,7 @@ You can access the application in the browser by navigating to:
 
 http://localhost:3000/index.html?pod=dub01&site=mySite&workbook=myWorkbook&view=MyView
 
-Replace the URL parameters (pod, site, workbook, and view) as needed for your Tableau environment. 
+Replace the URL parameters (pod - e.g. '10ax' or 'dub01', site, workbook, and view) as needed for your Tableau environment. 
 
 Alternatively, all these values can be hard-coded in app.js, so you can load run the app without passing parameters (http://localhost:3000/index.html)
 
