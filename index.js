@@ -40,9 +40,6 @@ app.get("/", function (req, res) {
   res.send("App is running on http://localhost:3000/index.html");
 });
 
-// Round-robin index
-let caUserIndex = 0;
-
 app.get("/gimmeJWT", (req, res) => {
   var userid = caUserId;
   var iss = clientId;
