@@ -13,6 +13,7 @@ This project demonstrates how to embed a Tableau visualization (viz) into a webp
 
 - Node.js installed on your machine.
 - Tableau Connected Apps configured to obtain `clientId`, `secretId`, `secretValue`, and `userId` for JWT generation.
+- Create a Tableau Connected app: https://help.tableau.com/current/online/en-us/connected_apps_direct.htm
 
 ## Setup
 
