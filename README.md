@@ -1,4 +1,9 @@
-# Tableau Embedded Viz App
+# Tableau Embedded Viz App for Tableau Server with Display License
+
+> ⚠️ **WARNING: ONLY USE THIS CODE ON YOUR OWN TABLEAU SERVER!**  
+> TABLEAU CLOUD MIGHT BLOCK YOU FOR RUNNING AUTO-REFRESHES.
+
+
 
 This project demonstrates how to embed a Tableau visualization (viz) into a webpage using the Tableau JavaScript API and a Node.js backend for JWT token generation. The viz is dynamically loaded based on URL parameters and uses JWT for authentication.
 
@@ -59,8 +64,9 @@ Replace the URL parameters (Tableau Server pod - e.g. 'analytics.company.com', s
 
 Alternatively, all these values can be hard-coded in app.js, so you can load run the app without passing parameters (http://localhost:3000/index.html)
 
-<div style="background-color: #ffcc00; color: #000; padding: 10px; border-radius: 5px; font-size: 16px; font-weight: bold;"> ⚠️ WARNING: ONLY USE THIS CODE ON YOUR OWN TABLEAU SERVER!<br>
-TABLEAU CLOUD MIGHT BLOCK YOU FOR RUNNING AUTO-REFRESHES </div>
+
+
+
 
 
 
