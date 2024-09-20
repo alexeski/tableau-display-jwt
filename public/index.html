@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tableau Embed</title>
     <style>
-      /* Style to center the div both vertically and horizontally */
       body {
         margin: 5;
         padding: 0;
@@ -14,19 +13,42 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column; /* Arrange elements vertically */
       }
 
-      #tableauViz {
+      #tableauVizContainer {
         width: 100vw;
         height: 100vh;
         max-width: 1750px;
         max-height: 950px;
+        position: relative; /* For z-index manipulation */
+      }
+
+      #tableauViz1,
+      #tableauViz2 {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      #options {
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1750px;
       }
     </style>
   </head>
 
   <body>
-    <div id="tableauViz"></div>
+    <div id="tableauVizContainer">
+      <div id="tableauViz1" style="z-index: 1"></div>
+      <div id="tableauViz2" style="z-index: -1"></div>
+    </div>
+
     <!-- Load the JS module for Tableau -->
     <script type="module" src="app.js"></script>
   </body>

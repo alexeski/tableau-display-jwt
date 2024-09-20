@@ -53,10 +53,15 @@ This will start the server on http://localhost:3000.
 ### 5. Access the Application
 You can access the application in the browser by navigating to:
 
-http://localhost:3000/index.html?pod=dub01&site=mySite&workbook=myWorkbook&view=MyView
+http://localhost:3000/index.html?pod=analytics.company.com&site=mySite&workbook=myWorkbook&view=MyView&refreshSeconds=60
 
-Replace the URL parameters (pod - e.g. '10ax' or 'dub01', site, workbook, and view) as needed for your Tableau environment. 
+Replace the URL parameters (Tableau Server pod - e.g. 'analytics.company.com', site, workbook, view and refreshSeconds) as needed for your Tableau environment. 
 
 Alternatively, all these values can be hard-coded in app.js, so you can load run the app without passing parameters (http://localhost:3000/index.html)
+
+<div style="background-color: #ffcc00; color: #000; padding: 10px; border-radius: 5px; font-size: 16px; font-weight: bold;"> ⚠️ WARNING: ONLY USE THIS CODE ON YOUR OWN TABLEAU SERVER!<br>
+TABLEAU CLOUD MIGHT BLOCK YOU FOR RUNNING AUTO-REFRESHES </div>
+
+
 
 
